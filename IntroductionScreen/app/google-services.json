@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "416537544207",
+    "firebase_url": "https://self-assessment-admin-default-rtdb.firebaseio.com",
+    "project_id": "self-assessment-admin",
+    "storage_bucket": "self-assessment-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416537544207:android:6029a76068a2ccff6f457a",
+        "android_client_info": {
+          "package_name": "com.example.introductionscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416537544207-qrmgfeaevlpf31qco0bmkutjfne42jq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy4OwvfXYnzMJpkWzX1J-7uu-539qpWCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416537544207-qrmgfeaevlpf31qco0bmkutjfne42jq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416537544207:android:64369295fe18724d6f457a",
+        "android_client_info": {
+          "package_name": "com.example.selfassessmentadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416537544207-qrmgfeaevlpf31qco0bmkutjfne42jq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy4OwvfXYnzMJpkWzX1J-7uu-539qpWCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416537544207-qrmgfeaevlpf31qco0bmkutjfne42jq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

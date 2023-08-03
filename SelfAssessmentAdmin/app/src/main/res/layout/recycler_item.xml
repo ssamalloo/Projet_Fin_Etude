@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12.5dp"
+    android:layout_marginEnd="12.5dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/recImage"
+            android:layout_marginStart="15dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/upload" />
+        
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/recTitle"
+            android:text="Title"
+            android:textColor="#ADADC9"
+            android:textSize="20sp"
+            android:fontFamily="@font/comic_neue"
+            android:layout_toEndOf="@+id/recImage"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:id="@+id/recType"
+            android:text="Type"
+            android:textAlignment="textEnd"
+            android:textColor="#61C4B9"
+            android:textSize="16sp"
+            android:fontFamily="@font/comic_neue"
+            android:layout_toEndOf="@+id/recTitle"
+            android:layout_marginTop="22.5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:id="@+id/recDesc"
+            android:text="Description"
+            android:textColor="#61C4B9"
+            android:textSize="16sp"
+            android:fontFamily="@font/comic_neue"
+            android:layout_toEndOf="@+id/recImage"
+            android:layout_below="@+id/recTitle"
+            android:maxLines="0"
+            android:layout_marginStart="10dp"/>
+        
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
